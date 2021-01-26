@@ -10,7 +10,7 @@ type Props = {
 export const SocailIcon = ({ iconName, colorType }:Props) => {
 
   return (
-    <a href="/#" className={style.link}>
+    <a href="/Magebit/#" className={style.link}>
       <div className={`${style.iconWrapper} ${colorType}`}>    
         <i className={`${iconName} ${style.icon}`} />   
       </div>
