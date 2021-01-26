@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Magebit/static/css/main.55626188.chunk.css",
+    "main.js": "/Magebit/static/js/main.783f2669.chunk.js",
+    "main.js.map": "/Magebit/static/js/main.783f2669.chunk.js.map",
+    "runtime-main.js": "/Magebit/static/js/runtime-main.a00fc76b.js",
+    "runtime-main.js.map": "/Magebit/static/js/runtime-main.a00fc76b.js.map",
+    "static/css/2.e985627f.chunk.css": "/Magebit/static/css/2.e985627f.chunk.css",
+    "static/js/2.c85834fe.chunk.js": "/Magebit/static/js/2.c85834fe.chunk.js",
+    "static/js/2.c85834fe.chunk.js.map": "/Magebit/static/js/2.c85834fe.chunk.js.map",
+    "static/js/3.a9461099.chunk.js": "/Magebit/static/js/3.a9461099.chunk.js",
+    "static/js/3.a9461099.chunk.js.map": "/Magebit/static/js/3.a9461099.chunk.js.map",
+    "index.html": "/Magebit/index.html",
+    "static/css/2.e985627f.chunk.css.map": "/Magebit/static/css/2.e985627f.chunk.css.map",
+    "static/css/main.55626188.chunk.css.map": "/Magebit/static/css/main.55626188.chunk.css.map",
+    "static/js/2.c85834fe.chunk.js.LICENSE.txt": "/Magebit/static/js/2.c85834fe.chunk.js.LICENSE.txt",
+    "static/media/ic_checkmark.4dff115c.svg": "/Magebit/static/media/ic_checkmark.4dff115c.svg",
+    "static/media/ic_success.bc50d31c.svg": "/Magebit/static/media/ic_success.bc50d31c.svg",
+    "static/media/home.scss": "/Magebit/static/media/image_summer.60801071.jpg",
+    "static/media/logo.c81004ce.svg": "/Magebit/static/media/logo.c81004ce.svg",
+    "static/media/pineapple_text.d39406bb.svg": "/Magebit/static/media/pineapple_text.d39406bb.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a00fc76b.js",
+    "static/css/2.e985627f.chunk.css",
+    "static/js/2.c85834fe.chunk.js",
+    "static/css/main.55626188.chunk.css",
+    "static/js/main.783f2669.chunk.js"
+  ]
+}
