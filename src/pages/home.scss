@@ -1,0 +1,53 @@
+$blue: #4066A5;
+$lightGrey: #fbfcfd;
+$borderGrey: #E3E3E4;
+$textDark: #131821;
+$textLight: #6A707B;
+
+.image--main{
+    width: 100%;
+}
+.padding--zero{ 
+    padding: 0;
+}
+.background{
+    background-image: url('../assets/image_summer.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.socialIconBlock{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 26vh;
+    justify-content: center;
+}
+hr{
+    border: 0.5px solid $borderGrey;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5vh;
+}
+.centerContentWrapper{
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+@media only screen and (max-width: 1024px) {
+    .centerContentWrapper{
+        padding: 30px 20px;
+        background-image: url('../assets/image_summer.jpg');
+    }
+    .mobileWrapper{
+        padding: 30px 20px;
+        background-color: $lightGrey;
+        margin: 30vh 0;
+    }
+    .socialIconBlock{
+        margin-bottom: 0;
+    }
+}

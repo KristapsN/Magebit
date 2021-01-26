@@ -1,0 +1,33 @@
+@import '../../../pages/home.scss';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+
+.iconWrapper{  
+    padding: 15px;
+    border-radius: 50px;
+    border: 2px solid $borderGrey;
+    margin: 0 10px;
+    color: #b8babc;
+    &:hover{
+        box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+        transition: 0.4s;
+    }
+    &:hover:first-child{
+        color: white;
+    }
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+}
+.link{
+    text-decoration: none;
+}
+@media only screen and (max-width: 1024px) {
+    .iconWrapper{
+        margin: 0 5px;
+    }
+}
+

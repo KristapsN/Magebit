@@ -1,0 +1,120 @@
+@import '../../../pages/home.scss';
+
+.inputWrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    &:last-child:first-child{
+        fill: #d2d3d5;
+    }
+    &:hover:last-child:first-child{      
+        fill: $blue;
+        transition: 0.4s;
+    }
+}
+.emailInput{
+    width: 100%;
+    padding: 23px 0 23px 44px;
+    border: 1px solid $borderGrey;;
+    border-left: 4px solid $blue;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: $textDark;
+
+    &::placeholder{
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: $textLight;
+            }
+    &:focus{
+        box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+        outline: none;
+    }
+    &:hover{
+        transition: 0.4s;
+        box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+        border: 1px solid $blue;
+        border-left: 4px solid $blue;
+    }
+}
+.submitButton{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 10px;
+    display: flex;
+    outline: none;
+}
+.checkboxLabel{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: $textLight;
+    cursor: pointer;
+}
+.checkboxLink{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #131821;
+
+    &:hover{
+        color: $blue;
+        transition: 0.4s;
+    }
+    &:active{
+        color: #233759;
+    }
+}
+.checkboxWrapper{
+    margin-bottom: 5vh;
+}
+
+// Checkbox
+
+.checkboxInput{
+    display: none;
+        &:checked{
+            background-color: $blue;
+        }
+        &:checked + .newCheckbox{
+            background-color: $blue;
+            border: 1px solid $blue; 
+        }
+        &:checked + .newCheckbox img{
+            position: relative;
+            left: 5px;
+            bottom: 0px;
+            width: 14px;
+            height: 11px;      
+        }
+}
+.newCheckbox{
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    margin-right: 15px;
+    background: #FFFFFF;
+    border: 1px solid $borderGrey;;
+    border-radius: 3px;
+}
+.newCheckbox img{
+    width: 0px;
+    height: 0px;
+}
+@media only screen and (max-width: 1104px) {
+.emailInput{
+    padding: 18px 0 18px 19px;
+}
+}

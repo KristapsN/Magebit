@@ -1,0 +1,19 @@
+.cardWrapper{
+    margin-bottom: 5vh;
+    margin-top: 25vh;
+}
+.cardSucessWrapper{
+    margin-bottom: 5vh;
+    margin-top: 15vh;
+}
+.image{
+    margin-bottom: 32px;
+}
+@media only screen and (max-width: 1024px) {
+    .cardWrapper{
+        margin-top: 0;
+    }
+    .cardSucessWrapper{
+        margin-top: 0;
+    }
+}

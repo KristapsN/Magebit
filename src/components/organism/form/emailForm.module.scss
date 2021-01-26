@@ -1,0 +1,27 @@
+.form{
+    width: 100%;
+}
+.floatingWrapper{
+    position: absolute;
+    width: 36%;
+    margin-left: -20px;
+}
+.hightWrapper{
+    height: 70px;
+    margin-bottom: 5vh;
+}
+.errorWrapper{
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 22px;
+    color: #c70000;
+    margin-bottom: 5vh;
+}
+@media only screen and (max-width: 1024px) {
+    .floatingWrapper{
+        position:unset;
+        width: 100%;
+        margin-left: 0;
+    }
+
+}

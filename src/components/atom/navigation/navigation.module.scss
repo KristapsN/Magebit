@@ -1,0 +1,42 @@
+.navWrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 10vh;
+    justify-content: space-around;
+}
+.linkWrapper{
+    padding-top: 10px;
+}
+.navLink{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6A707B;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.logoWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo_text{
+    margin-left: 10px;
+    padding-top: 12px;
+}
+@media only screen and (max-width: 1104px) {
+    .navLink{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .logo_text{
+        display: none;
+    }
+    .navWrapper{
+        margin-top: 10px;
+        margin-bottom: 16px;
+
+    }
+}
